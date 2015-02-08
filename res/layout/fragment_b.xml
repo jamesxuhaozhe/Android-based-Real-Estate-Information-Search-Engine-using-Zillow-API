@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC99"
+    tools:context="com.example.homework9.FragmentB" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This is fragment B" />
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="92dp"
+            android:gravity="center_vertical|center"
+            android:text="TextView1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="142dp"
+            android:gravity="center_vertical|center"
+            android:text="TextView2" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="704dp"
+             android:onClick="changePic"
+            android:text="The next one" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_x="305dp"
+            android:layout_y="703dp"
+            android:text="On one piece of" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="600dp"
+            android:layout_height="500dp"
+            android:layout_x="0dp"
+            android:layout_y="175dp" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>
